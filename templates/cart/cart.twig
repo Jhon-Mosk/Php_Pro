@@ -1,0 +1,8 @@
+<h2>Корзина</h2>
+
+{% for item in cart %}
+<div data-id={{ item.id }}>
+    <h3>{{ item.name }}</a></h3>
+    <p>price: {{ item.actualPrice }}</p>
+</div>
+{% endfor %}

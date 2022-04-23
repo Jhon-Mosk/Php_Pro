@@ -1,0 +1,649 @@
+body {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dbeef2+0,8fc9d4+100 */
+    background: rgb(219, 238, 242);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(219, 238, 242, 1) 0%, rgba(143, 201, 212, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(219, 238, 242, 1) 0%, rgba(143, 201, 212, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(219, 238, 242, 1) 0%, rgba(143, 201, 212, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dbeef2', endColorstr='#8fc9d4', GradientType=0);
+    /* IE6-9 */
+    margin: 0;
+}
+
+.header {
+    height: 700px;
+    background: url(../img/surfhouse/indexBack.jpg);
+    background-size: cover;
+}
+
+.headerContainer {
+    width: 1170px;
+    height: inherit;
+    margin: 0 auto;
+    position: relative;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    background: url(../img/surfhouse/surfhouse_logo.png) no-repeat;
+    width: 125px;
+    height: 111px;
+    display: block;
+    position: absolute;
+    left: 69px;
+    top: 24px;
+}
+
+.socialIcons {
+    letter-spacing: 8px;
+    position: absolute;
+    right: 64px;
+    top: 50px;
+}
+
+.socialIcons i {
+    font-size: 24px;
+}
+
+.socialIcons i:hover {
+    color: #fff51f;
+}
+
+.welcome {
+    position: absolute;
+    top: 336px;
+    width: 270px;
+    height: 300px;
+    background-color: #fff51f;
+}
+
+.welcomeHeadline {
+    position: absolute;
+    top: 82px;
+    left: 25px;
+    color: #333333;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.welcomeText {
+    color: #333333;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 14px;
+    position: absolute;
+    top: 158px;
+    left: 22px;
+}
+
+.funride {
+    position: absolute;
+    top: 243px;
+    right: 109px;
+    width: 320px;
+    height: 169px;
+    color: #fff51f;
+    font-family: "Raleway", sans-serif;
+}
+
+.funrideHeadline {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+
+.funrideText {
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 5px;
+}
+
+.buy {
+    text-decoration: none;
+    display: block;
+    width: 124px;
+    height: 49px;
+    background-color: #fff51f;
+    text-transform: uppercase;
+    color: black;
+    line-height: 49px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+}
+
+.buy:hover {
+    background-color: black;
+    color: #fff51f;
+}
+
+.contentContainer {
+    width: 1170px;
+    margin: -20px auto 0;
+    position: relative;
+}
+
+.contentFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentLeft {
+    width: 270px;
+}
+
+.contentLeftMenu {
+    line-height: 66px;
+    background-color: #333333;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 40px;
+}
+
+.contentLeft a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    padding-left: 40px;
+    background-color: #26d2fc;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 36px;
+}
+
+.contentLeft a:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.open {
+    margin-top: 30px;
+    width: 270px;
+    height: 300px;
+    background: url(../img/surfhouse/store.jpg);
+    color: #333333;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 36px;
+    text-transform: uppercase;
+    padding-top: 129px;
+    padding-left: 129px;
+    box-sizing: border-box;
+    border: 10px solid #f8f8f8;
+}
+
+.contentRight {
+    width: 870px;
+}
+
+.contentHeader {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 78px;
+    line-height: 78px;
+    padding: 0 25px;
+    background: #f8f8f8;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #707070;
+    margin-bottom: 30px;
+}
+
+.contentHeader_margin {
+    margin-top: 30px;
+}
+
+.contentHeader_direction {
+    flex-direction: column;
+}
+
+.productsWrap {
+    margin-bottom: 30px;
+}
+
+.productsWrap__oneProduct {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.orders__wrap {
+    justify-content: space-around;
+}
+
+.orders__button {
+    padding: 5px;
+    color: #707070;
+    border: 2px solid #707070;
+}
+
+.orders__button:hover {
+    background: #cfcfcf;
+    font-size: 18px;
+}
+
+.saleProducts {
+    margin-bottom: 0;
+}
+
+.productsWrap:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.productUnit {
+    background-color: #ffffff;
+    width: 270px;
+    height: 320px;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.productUnit__orders {
+    background-color: #ffffff;
+    width: 270px;
+    height: 320px;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.productUnit__oneProductDesc {
+    flex-grow: 1;
+    margin-right: 0 !important;
+}
+
+.productName__oneProduct {
+    width: 100% !important;
+    max-height: fit-content !important;
+}
+
+.feedback_textarea__oneProduct {
+    resize: none;
+}
+
+.productUnit__oneProductFeedback {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+}
+
+.delete__oneProduct {
+    color: #ff0000;
+    margin-left: 10px;
+    width: 8px;
+}
+
+.edit__oneProduct {
+    color: #001aff;
+    margin-left: 10px;
+    width: 12px;
+}
+
+.header__cart_position {
+    position: fixed;
+    right: 300px;
+}
+
+.header__cart {
+    text-decoration: none;
+    position: relative;
+    fill: #F7F7F7;
+}
+
+.header__cart__count {
+    letter-spacing: normal;
+    background: #F16D7F;
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    font-style: normal;
+    color: #FFFFFF;
+    text-align: center;
+    position: absolute;
+    top: -22px;
+    left: 25px;
+}
+
+.header__cart__count_hide {
+    display: none;
+}
+
+.header__cart:hover {
+    fill: #F16D7F;
+}
+
+.productUnit:not(:nth-child(3n)) {
+    margin-right: 30px;
+}
+
+.productUnit:nth-child(n+4) {
+    margin-top: 30px;
+}
+
+.productUnitNew:before,
+.productUnitHot:before {
+    font-family: "Roboto", sans-serif;
+    font-size: 9px;
+    color: #fff;
+    padding: 9px 0 0 22px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.productUnitNew:before {
+    content: "NEW";
+    background: url(../img/surfhouse/new-corner.png) no-repeat;
+}
+
+.productUnitHot:before {
+    content: "HOT";
+    color: #000000;
+    background: url(../img/surfhouse/hot-corner.png) no-repeat;
+}
+
+.productUnitBuy {
+    font-family: "Roboto", sans-serif;
+    font-size: 9px;
+    color: #fff;
+    padding: 9px 0 0 7px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background: url(../img/surfhouse/buy-corner.png) no-repeat;
+}
+
+.productUnitBuy:hover {
+    color: #F16D7F;
+}
+
+.productImg {
+    width: 100%;
+    height: 235px;
+    margin-bottom: 19px;
+}
+
+.productName {
+    width: 155px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 14px;
+    color: #333;
+    float: left;
+    max-height: 2.4em;
+    overflow: hidden;
+}
+
+.productPriceWrap {
+    float: right;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: #333;
+    text-align: right;
+}
+
+.actualPrice {
+    font-size: 18px;
+}
+
+.oldPrice {
+    color: #e24602;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.brands {
+    position: relative;
+    top: 30px;
+    height: 160px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    box-sizing: border-box;
+}
+
+.istagramFeedWrap {
+    height: 350px;
+    background-color: #eaeaea;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.instaFeedHead {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.instaFeedHead i {
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    top: 5px;
+}
+
+.instaFeedHead span {
+    font-size: 22px;
+}
+
+.instaFeedImages {
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.instaFeedImages img {
+    border: 8px solid #fff;
+    box-sizing: border-box;
+}
+
+.socialButtonsWrap {
+    height: 150px;
+    display: flex;
+}
+
+.socialButtonsWrap a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100%/3);
+    height: inherit;
+    text-decoration: none;
+    color: #fff;
+    font-size: 4rem;
+}
+
+.socialButtonsWrap a:nth-child(1) {
+    background-color: #3b5997;
+}
+
+.socialButtonsWrap a:nth-child(2) {
+    background-color: #3fccfd;
+}
+
+.socialButtonsWrap a:nth-child(3) {
+    background-color: #cb2027;
+}
+
+.footer {
+    background-color: #373737;
+    color: #fff;
+}
+
+.footerInside {
+    width: 1170px;
+    margin: 0 auto;
+    min-height: 343px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 75px;
+    box-sizing: border-box;
+}
+
+.columnHead {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 28px;
+}
+
+.columnLinks a {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.newsLetter {
+    width: 270px;
+}
+
+.columnNewsLetter {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+
+.newsLetterText {
+    margin-bottom: 31px;
+}
+
+.columnNewsLetter input {
+    background-color: #fff51f;
+    width: 180px;
+    height: 30px;
+    outline: none;
+    border: none;
+    padding: 0 5px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.columnNewsLetter button {
+    width: 71px;
+    height: 30px;
+    background: #000;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: 0;
+    outline: none;
+}
+
+.columnNewsLetter button:hover {
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.cardsWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.about {
+    width: 232px;
+    font-family: "Roboto", sans-serif;
+}
+
+.aboutText {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.aboutPhone {
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+.aboutPhone span,
+.aboutEmail span {
+    margin-right: 10px;
+}
+
+.aboutEmail {
+    margin-top: 14px;
+    color: #faef03;
+    font-size: 14px;
+}
+
+.footerCopyrights {
+    height: 47px;
+    background: #333;
+    line-height: 47px;
+}
+
+.copyrightsInside {
+    width: 1170px;
+    margin: 0 auto;
+    height: inherit;
+}
+
+.footerCopySign {
+    float: left;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+.footerSocials {
+    height: inherit;
+    float: right;
+    width: 178px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

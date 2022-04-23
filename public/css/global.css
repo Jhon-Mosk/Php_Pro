@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    background: #444 url('../img/body.jpg');
+    color: #ffffff;
+    font: normal 1.2em Verdana, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #ffffff;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+}
